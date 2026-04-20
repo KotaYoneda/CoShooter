@@ -12,7 +12,13 @@ __pycache__/
 # --- uv / Virtual Environment ---
 # Ignore the local virtual environment created by uv
 .venv/
+# Do not ignore .python-version if you want to fix the dev environment version
+# But usually, keeping it ignored is safer for cross-platform users
 .python-version
+
+# --- JetBrains (PyCharm) ---
+# Ignore PyCharm project-specific settings
+.idea/
 
 # --- VS Code ---
 # Ignore local workspace settings and history
