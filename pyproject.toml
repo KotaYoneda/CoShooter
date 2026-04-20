@@ -1,0 +1,22 @@
+[project]
+name = "coshooter"
+version = "1.0.0"
+description = "A 'nitpicking' biofeedback device for neonatal intubation training using micro:bit"
+readme = "README.md"
+authors = [
+    { name = "Kota Yoneda" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/KotaYoneda/coshooter"
+Repository = "https://github.com/KotaYoneda/coshooter.git"
+
+[dependency-groups]
+dev = [
+    "microbit-stubs>=0.2.0", # Provides IntelliSense and type hinting for micro:bit modules
+    "black",                 # Uncompromising code formatter to ensure style consistency
+    "ruff",                  # Extremely fast linter and formatter for code quality and security
+]

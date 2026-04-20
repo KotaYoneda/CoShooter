@@ -1,0 +1,28 @@
+# --- OS Metadata ---
+.DS_Store
+Thumbs.db
+
+# --- Python / MicroPython ---
+__pycache__/
+*.py[cod]
+*$py.class
+# Ignore local hex files (to be distributed via GitHub Releases)
+*.hex
+
+# --- uv / Virtual Environment ---
+# Ignore the local virtual environment created by uv
+.venv/
+.python-version
+
+# --- VS Code ---
+# Ignore local workspace settings and history
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# --- Project Specific ---
+# Ignore any temporary test logs or experimental data
+*.log
