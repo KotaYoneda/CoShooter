@@ -2,15 +2,15 @@
 
 You can customize **CoShooter** to match your clinical criteria or personal preferences.
 
-CoShooterの警告の感度や音の設定は、`main.py` 内の数値を書き換えることで簡単に調整できます。
+CoShooterの警告の感度や音の設定は、`src/main.py` 内の数値を書き換えることで簡単に調整できます。
 
 ---
 
 ## 1. Adjusting the "Nitpicking" Level / 厳しさの調整
 
-You can change the sensitivity by editing the following variables in `main.py`.
+You can change the sensitivity by editing the following variables in `src/main.py`.
 
-`main.py` の以下の変数を変更することで、デバイスの「厳しさ」を調整できます。
+`src/main.py` の以下の変数を変更することで、デバイスの「厳しさ」を調整できます。
 
 * **`SAFE_LIMIT_DEG`** (Default: `30.0`)
     * The angle (degrees) where the alert sound starts.
@@ -58,13 +58,13 @@ If the default sounds are too persistent or need more urgency, you can modify th
 
 ## 4. How to Apply Changes / 設定変更の反映方法
 
-1. **Edit `main.py`**
+1. **Edit `src/main.py`**
     * Open the file in your editor and update the values.
-    * `main.py` をエディタで開き、各項目の数値を書き換えます。
+    * `src/main.py` をエディタで開き、各項目の数値を書き換えます。
 
 2. **Flash the Code**
-    * Transfer the updated `main.py` to your micro:bit.
-    * 設定を反映させるため、書き換えた `main.py` を micro:bit 本体へ書き込みます。
+    * Transfer the updated `src/main.py` to your micro:bit.
+    * 設定を反映させるため、書き換えた `src/main.py` を micro:bit 本体へ書き込みます。
 
 3. **Verify**
     * Always test the behavior on a manikin after modification to ensure the "nitpicking" is appropriate.

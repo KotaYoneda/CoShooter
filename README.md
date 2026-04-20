@@ -32,7 +32,7 @@ This device and software are for **educational simulation and training purposes 
 
 ## Project Structure / プロジェクト構成
 
-* `main.py`: The core program for micro:bit.
+* `src/main.py`: The core program for micro:bit.
 * `LICENSE`: MIT License (Copyright (c) 2026 Kota Yoneda).
 * `docs/`: 
     * [assembly.md](docs/assembly.md): How to mount it on a laryngoscope.
@@ -47,7 +47,7 @@ This device and software are for **educational simulation and training purposes 
 
 ### English
 1.  **Preparation**: Prepare a micro:bit and a battery pack.
-2.  **Flash**: Follow the [Flashing Guide](docs/flashing_guide.md) to upload `main.py`.
+2.  **Flash**: Follow the [Flashing Guide](docs/flashing_guide.md) to upload `src/main.py`.
 3.  **Assemble**: Follow the [Assembly Guide](docs/assembly.md) to mount it on your laryngoscope handle.
 4.  **Train**: Turn it on (A+B buttons) and start your simulation!
 
@@ -55,7 +55,7 @@ This device and software are for **educational simulation and training purposes 
 
 ### 日本語
 1.  **準備**: micro:bitと電池ボックスを用意します。
-2.  **書き込み**: [Flashing Guide](docs/flashing_guide.md) に従って `main.py` を書き込みます。
+2.  **書き込み**: [Flashing Guide](docs/flashing_guide.md) に従って `src/main.py` を書き込みます。
 3.  **組み立て**: [Assembly Guide](docs/assembly.md) を参考にハンドルへ固定します。
 4.  **練習**: A+Bボタンで起動し、トレーニングを開始してください。
 

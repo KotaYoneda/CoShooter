@@ -1,8 +1,8 @@
 # Flashing Guide / プログラムの書き込み手順
 
-This guide explains how to transfer your edited `main.py` to the micro:bit.
+This guide explains how to transfer your edited `src/main.py` to the micro:bit.
 
-編集した `main.py` を micro:bit 本体に書き込む手順を解説します。
+編集した `src/main.py` を micro:bit 本体に書き込む手順を解説します。
 
 ---
 
@@ -14,15 +14,15 @@ This guide explains how to transfer your edited `main.py` to the micro:bit.
 
 ---
 
-## Step 2: Load your main.py / ファイルを読み込む
+## Step 2: Load your src/main.py / ファイルを読み込む
 
 * **Open File**
     * Click the **"Open"** (folder icon) in the editor.
     * エディタの「Open（フォルダアイコン）」をクリックします。
 
 * **Import**
-    * Drag and drop your edited **`main.py`** into the editor, or select it from your computer.
-    * 編集した **`main.py`** を画面にドラッグ＆ドロップするか、ファイルを選択して読み込みます。
+    * Drag and drop your edited **`src/main.py`** into the editor, or select it from your computer.
+    * 編集した **`src/main.py`** を画面にドラッグ＆ドロップするか、ファイルを選択して読み込みます。
 
 ---
 

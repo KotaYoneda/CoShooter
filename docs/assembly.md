@@ -55,8 +55,8 @@ CoShooterは、親指で直接押さえて保持するスタイルを推奨し�
 ## 3. Setup Steps / 手順
 
 * **1. Flash the Code / 書き込み**
-    * Transfer `main.py` to the micro:bit.
-    * `main.py` をmicro:bitに書き込みます。
+    * Transfer `src/main.py` to the micro:bit.
+    * `src/main.py` をmicro:bitに書き込みます。
 
 * **2. Protect the Board / 保護**
     * Put the micro:bit in a silicon case. This improves the grip under your thumb.
